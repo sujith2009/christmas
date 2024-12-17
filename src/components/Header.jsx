@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Logo from "../assets/banner.jpg";
 import "../App.css";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
+import Snow from "../pages/Snow";
 
 const Header = () => {
   return (
@@ -16,6 +17,7 @@ const Header = () => {
             year
           </h4>
         </div>
+        <Snow />
       </div>
     </div>
   );

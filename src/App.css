@@ -1,6 +1,6 @@
 .banner_img {
   width: 100%;
-  height: auto;
+  height: 768px;
 }
 
 h2 {
@@ -17,7 +17,7 @@ h2 {
 .subtext {
   position: absolute;
   color: #fff;
-  font-family: sans-serif;
+  font-family: cursive;
   top: 35%; /* Positioned below the main title */
   left: 50%;
   transform: translate(-50%, -50%);
@@ -31,6 +31,9 @@ h2 {
 @media screen and (max-width: 995px) {
   .subtext {
     margin-top: 30px;
+  }
+  .banner_img {
+    height: 650px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -46,7 +49,7 @@ h2 {
 
 @media screen and (max-width: 480px) {
   h2 {
-    font-size: 20px;
+    font-size: 35px;
     top: 20%;
   }
   .subtext {
