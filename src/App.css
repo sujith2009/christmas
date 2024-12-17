@@ -1,0 +1,56 @@
+.banner_img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  position: absolute;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.subtext {
+  position: absolute;
+  color: #fff;
+  font-family: sans-serif;
+  top: 35%; /* Positioned below the main title */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 80%; /* Limit the width for better readability */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 995px) {
+  .subtext {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+  .subtext {
+    font-size: 16px; /* Adjust subtext size */
+    top: 32%;
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 20px;
+    top: 20%;
+  }
+  .subtext {
+    font-size: 14px;
+    top: 30%;
+  }
+}
