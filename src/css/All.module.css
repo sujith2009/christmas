@@ -1,0 +1,78 @@
+.merryChristmas {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 29px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.rotateAnimation {
+  display: inline-block; /* Ensures proper rendering */
+  animation: rotate 2s linear infinite;
+  font-size: 55px !important;
+}
+
+/*---contentText---*/
+.contentText {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  font-size: 30px;
+  background: linear-gradient(
+    90deg,
+    #fcc737,
+    #f8eded
+  ); /* Define your gradient */
+  -webkit-background-clip: text; /* Clips the background to the text */
+  -webkit-text-fill-color: transparent;
+}
+.paraContent {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+/*-----------------------------*/
+.kingText {
+  background: linear-gradient(
+    90deg,
+    #fcc737,
+    #f8eded
+  ); /* Define your gradient */
+  -webkit-background-clip: text; /* Clips the background to the text */
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
+.kingLogo {
+  color: #fff;
+  font-size: 50px;
+}
+.jerin {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    #fcc737,
+    #f8eded
+  ); /* Define your gradient */
+  -webkit-background-clip: text; /* Clips the background to the text */
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 400px) {
+  .kingText {
+    font-size: 20px;
+  }
+  .kingLogo {
+    font-size: 25px !important;
+  }
+  .jerin {
+    font-size: 16px !important;
+  }
+}

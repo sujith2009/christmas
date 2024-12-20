@@ -1,6 +1,6 @@
 .banner_img {
   width: 100%;
-  height: 768px;
+  height: 500px;
 }
 
 h2 {
@@ -15,14 +15,15 @@ h2 {
   font-weight: 800;
 }
 .subtext {
+  font-family: "Courier New", Courier, monospace;
   position: absolute;
-  color: #fff;
+  color: #d1c0c0;
   font-family: cursive;
   top: 35%; /* Positioned below the main title */
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   max-width: 80%; /* Limit the width for better readability */
 }
@@ -33,7 +34,7 @@ h2 {
     margin-top: 30px;
   }
   .banner_img {
-    height: 650px;
+    height: 400px;
   }
 }
 @media screen and (max-width: 768px) {

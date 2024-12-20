@@ -6,7 +6,7 @@ import Snow from "../pages/Snow";
 
 const Header = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#CF4751" }}>
       <div className="container-fluid">
         <div className="row position-relative">
           <img src={Logo} alt="" className="img-fluid banner_img" />
